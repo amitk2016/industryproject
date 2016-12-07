@@ -18,7 +18,9 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main"> -->
 		
 		<div class="row header-gallery">
-			
+			<div class="overlay-box">
+				<h1 style="margin:0px; color:white; text-transform: uppercase;">Gallery</h1>
+			</div>
 		</div>
 		<h1 class="text-center top-bottom-space side-padding">
 			Gallery

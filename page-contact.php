@@ -17,7 +17,9 @@ get_header(); ?>
 <!-- 	<div id="primary" class="content-area container">
 		<main id="main" class="site-main" role="main"> -->
 		<div class="row header-contact ">
-			
+			<div class="overlay-box">
+				<h1 style="margin:0px; color:white; text-transform: uppercase;">Contact</h1>
+			</div>
 		</div>
 		<h1 class="text-center">Contact Me</h1>
 		<div class="row top-bottom-space side-padding">

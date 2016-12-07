@@ -17,7 +17,9 @@ get_header(); ?>
 <!-- 	<div id="primary" class="content-area container">
 		<main id="main" class="site-main" role="main"> -->
 	<div class="row header-past">
-	
+		<div class="overlay-box">
+				<h1 style="margin:0px; color:white; text-transform: uppercase;">Past Shows</h1>
+		</div>
 	</div>
 	<h1 class="text-center top-bottom-spacing">
 		Past Shows

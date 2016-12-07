@@ -41,5 +41,7 @@
 	} );
 } )( jQuery );
 
-
-console.log('hello');
+$(function(){
+		$('#primary-menu').slicknav();
+	});
+	

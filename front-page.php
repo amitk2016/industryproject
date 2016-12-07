@@ -26,7 +26,42 @@ get_header(); ?>
 						<h1><strong>Alexander Sparrow</strong></h1>
 						<h5><strong>Australasia's Number 1 Donald Trump Impersonator</strong></h5>
 					</div>
-					
+					<div class="social-links-main-page">
+						<ul class="text-center">
+							<li>
+								<a href="#">
+									<span class="fa-stack fa-lg">
+									  <i class="fa fa-circle fa-stack-2x"></i>
+									  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="fa-stack fa-lg">
+									  <i class="fa fa-circle fa-stack-2x"></i>
+									  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="fa-stack fa-lg">
+									  <i class="fa fa-circle fa-stack-2x"></i>
+									  <i class="fa fa-pinterest-p fa-stack-1x fa-inverse"></i>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="fa-stack fa-lg">
+									  <i class="fa fa-circle fa-stack-2x"></i>
+									  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>		
 			</div>
 			<div class="row latest-box side-padding">
