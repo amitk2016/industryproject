@@ -25,8 +25,10 @@ get_header(); ?>
 		<h1 class="text-center top-bottom-space side-padding">
 			Gallery
 		</h1>
+				
+			<div class="well "><a href=""><img class="img-responsive thumbnail fancybox" rel="group" src="http://localhost/wordpress-4/wp-content/uploads/2016/12/deSade2.jpg" alt="alexander's pic of the interview in TVNZ Breakfast show" /></a></div>
 
-		<div class="row text-center top-bottom-space side-padding">
+		<!-- <div class="row text-center top-bottom-space side-padding">
 			<div class="col-md-3 "><img src="<?php echo get_template_directory_uri(); ?>/images/Trump.jpg" class="img-responsive"></div>
 			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/images/Trump.jpg" class="img-responsive"></div>
 			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/images/Trump.jpg" class="img-responsive"></div>
@@ -45,7 +47,7 @@ get_header(); ?>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo pariatur, vero quibusdam consequuntur fugit dolorem, voluptate, dolore dolor ab consequatur porro. Voluptates, vitae ipsa voluptatum laboriosam, ipsum ullam iste ducimus.</p>
 			<img src="http://placehold.it/300x300" alt="">
 		</div>
-
+ -->
 	
 		<?php
 		if ( have_posts() ) :

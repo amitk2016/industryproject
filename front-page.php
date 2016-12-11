@@ -95,14 +95,29 @@ get_header(); ?>
 					<p>Alexander is a writer / performer and award-winning director from New Zealand, and Australasia’s foremost Donald Trump impersonator. He has been interviewed on TVNZ’s Breakfast, TV3’s Story, The Wall Street Journal, NZH Focus, Radio New Zealand, MORE FM, The Breeze, and Newstalk ZB. His shows have also been featured in The Dominion Post and the New Zealand Herald. During October and November 2016, he is taking his critically acclaimed one-man comedy on Donald Trump, The President, on a national tour. (He is also taking corporate gigs, see the contact page if you are interested in having him at your event.)</p>
 				</div>
 
-				<div class="col-md-4 latest-left top-bottom-padding">
+
+				<?php if(get_theme_mod('aw-latest-callout-display') == "Yes") {?>
+					<div class="row box-1 top-bottom-space">
+						
+						<div class="col-md-4 latest-left top-bottom-padding">
+							<img src="<?php echo wp_get_attachment_url(get_theme_mod('aw-latest-callout-image'))?>" class="img-responsive">
+						</div>
+						<div class="col-md-8">
+							<h2 class="text-center" style="margin-bottom:20px;text-transform: uppercase;"><?php echo get_theme_mod('aw-latest-callout-heading'); ?></h2>
+							<p class="text-center" style="margin-bottom:20px;"><?php echo get_theme_mod('aw-latest-callout-text'); ?></p>
+							<div class="text-center"><a href="<?php echo get_permalink(get_theme_mod('aw-latest-callout-link')); ?>" class="btn btn-info btn-lg">Read More</a></div>
+						</div>
+					</div>
+				<?php } ?>
+
+				<!-- <div class="col-md-4 latest-left top-bottom-padding">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/President.jpg" class="img-responsive" alt="President Donald trump backside poster image">
 				</div>
 				<div class="col-md-8">
 					<h2 class="text-center" style="margin-bottom:20px;text-transform: uppercase;">The President</h2>
 					<p class="text-center" style="margin-bottom:20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis eos delectus tempora eligendi expedita, minus neque molestiae quibusdam sit culpa suscipit beatae odit quia! Accusamus debitis, consectetur ratione aliquid nihil.</p>
-					<div class="text-center readmore"><a href="#" class="btn btn-primary btn-lg">Read More</a></div>
-				</div>
+					
+				</div> -->
 				
 			</div>
 

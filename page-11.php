@@ -22,47 +22,6 @@ get_header(); ?>
 			</div>
 		</div>
 
-	<div class="row padding-left-right">
-		<div class="col-md-12 col-md-offset-1">
-			<table class="table table-striped" style="width:80%;" cellpadding="10">
-		  
-			<tbody>
-				<tr>
-					<th>Date</th>
-					<th>Shows</th>
-					<th>Location</th>
-				</tr>
-				<tr>
-
-					<td>7 February</td>
-					<td> Coastal Comedy (MC)</td>
-					<td>Raumati Social Club</td>
-				</tr>
-				<tr>
-					<td>7 February</td>
-					<td> Coastal Comedy (MC)</td>
-					<td>Raumati Social Club</td>
-				</tr>
-				<tr>
-					<td>7 February</td>
-					<td> Coastal Comedy (MC)</td>
-					<td>Raumati Social Club</td>
-				</tr>
-				<tr>
-					<td>7 February</td>
-					<td> Coastal Comedy (MC)</td>
-					<td>Raumati Social Club</td>
-				</tr>
-				<tr>
-					<td>7 February</td>
-					<td> Coastal Comedy (MC)</td>
-					<td>Raumati Social Club</td>
-				</tr>
-			</tbody>
-		</table>
-		</div>
-	</div>
-	
 		<?php
 		if ( have_posts() ) :
 

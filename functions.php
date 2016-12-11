@@ -153,3 +153,91 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+
+// Add latest callout section to admin apperance cutomize screen
+function awesome_latest_callout($wp_customize){
+	$wp_customize->add_section('aw_latest-callout-section',array(
+		'title' => 'Latest Callout',
+
+	));
+
+	$wp_customize->add_setting('aw-latest-callout-display',array(
+		'default' => 'Yes'
+
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize,'aw-latest-callout-display-control',array(
+		'label' => 'Display this section?',
+		'section' => 'aw_latest-callout-section',
+		'settings' => 'aw-latest-callout-display',
+		'type' => 'select',
+		'choices' => array('No' => 'No', 'Yes' => 'Yes')
+
+
+	)));
+
+
+
+
+
+	$wp_customize->add_setting('aw-latest-callout-heading',array(
+		'default' => 'Example Headline'
+
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize,'aw-latest-callout-headline-control',array(
+		'label' => 'Headline',
+		'section' => 'aw_latest-callout-section',
+		'settings' => 'aw-latest-callout-heading'
+
+
+	)));
+
+
+
+	$wp_customize->add_setting('aw-latest-callout-text',array(
+		'default' => 'Example Paragraph!'
+
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize,'aw-latest-callout-text-control',array(
+		'label' => 'text',
+		'section' => 'aw_latest-callout-section',
+		'settings' => 'aw-latest-callout-text',
+		'type' => 'textarea',
+
+
+	)));
+
+
+
+	$wp_customize->add_setting('aw-latest-callout-link'); 
+
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize,'aw-latest-callout-link-control',array(
+		'label' => 'Link',
+		'section' => 'aw_latest-callout-section',
+		'settings' => 'aw-latest-callout-link',
+		'type' => 'dropdown-pages',
+
+
+	)));
+
+
+	$wp_customize->add_setting('aw-latest-callout-image'); 
+
+	$wp_customize->add_control(new WP_Customize_Cropped_Image_Control($wp_customize,'aw-latest-callout-image-control',array(
+		'label' => 'Image',
+		'section' => 'aw_latest-callout-section',
+		'settings' => 'aw-latest-callout-image',
+		'width' => 1000,
+		'height' => 680,
+
+
+	)));
+}
+
+add_action('customize_register','awesome_latest_callout');
+
+
+
+
+

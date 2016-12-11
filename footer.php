@@ -58,6 +58,19 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="<?= get_template_directory_uri() ?>/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="<?= get_template_directory_uri() ?>/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="<?= get_template_directory_uri() ?>/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script src="<?= get_template_directory_uri() ?>/js/functions.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
 </body>
 </html>
