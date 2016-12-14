@@ -1,7 +1,6 @@
 console.log('yay its working');
 $(document).ready(function(){
-	$(window).scroll(function(scroll) {
-		console.log(scroll);
+	$(window).scroll(function() {
 		if ($(this).scrollTop() > 1){  
 		    $('.main-navigation').addClass("sticky");
 		  }
@@ -9,5 +8,12 @@ $(document).ready(function(){
 		    $('.main-navigation').removeClass("sticky");
 		  }
 		});
+
+
+
+		$('#primary-menu').slicknav();
+
+
+
 
 });

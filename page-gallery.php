@@ -26,7 +26,6 @@ get_header(); ?>
 			Gallery
 		</h1>
 				
-			<div class="well "><a href=""><img class="img-responsive thumbnail fancybox" rel="group" src="http://localhost/wordpress-4/wp-content/uploads/2016/12/deSade2.jpg" alt="alexander's pic of the interview in TVNZ Breakfast show" /></a></div>
 
 		<!-- <div class="row text-center top-bottom-space side-padding">
 			<div class="col-md-3 "><img src="<?php echo get_template_directory_uri(); ?>/images/Trump.jpg" class="img-responsive"></div>

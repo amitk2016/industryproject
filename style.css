@@ -957,7 +957,7 @@ nav.sticky {
 	padding-left: 0px;
 }
 
-.handle{
+/*.handle{
 	height:50px;
 	background-color: rgba(0,0,0,0.8);
 	color:#fff;
@@ -971,7 +971,7 @@ nav.sticky {
 }
 .handle i{
 	font-size: 24px;
-}
+}*/
 
 .slicknav_menu {
 	display:none;
@@ -1054,6 +1054,74 @@ nav.sticky {
 .entry-title a{
 	display: none;
 }
+
+
+/*-------------------------blogs page Style Starts here-------------------------------*/
+.header-blogs{
+	background-image: url(images/Story.jpg);
+	background-position:35% 20%;
+	height:60vh;
+	
+}
+
+
+@media ( min-width:500px ) {
+
+.header-blogs{
+	background-image: url(images/Story.jpg);
+	background-position:0% 20%;
+	background-size: cover;
+	height:60vh;
+	}
+
+
+
+
+	
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*---------------------------blogs page style ends here -----------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*-----------------------------Latest News Home page Style Starts here------------------------------------------------*/
@@ -1198,6 +1266,73 @@ nav.sticky {
 	align-items: center;
 }
 
+#each-show{
+	/*list-style: none;
+	color:#555;
+	display: flex;
+	cursor: pointer;
+	border-bottom: 1px solid #ccc;
+	transition: all 1.5s ease;*/
+    /*color:white;*/
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, #fff 50%, #E80C7A 50%);
+    transition: all 0.5s;
+    padding:0 0 0 20px;
+    cursor: pointer;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+#each-show:hover{
+	background-position: -100% 0;
+	/*background-color: #f3430c;*/
+	transform: scale(1.02);
+	border-radius: 0px 0px 45px 0px;
+}
+.show-main-title{
+	margin-bottom:50px;
+}
+.shows-title{
+	font-size:20px;
+	color:#E80C7A;
+}
+#each-show:hover .shows-title{
+	color:#333;
+}
+.shows-text{
+
+}
+#each-show:hover .shows-text{
+	color:#fff;
+}
+.buy-now {
+  background: #E80C7A;
+  background-image: -webkit-linear-gradient(top, #E80C7A, #F5007A);
+  background-image: -moz-linear-gradient(top, #E80C7A, #F5007A);
+  background-image: -ms-linear-gradient(top, #E80C7A, #F5007A);
+  background-image: -o-linear-gradient(top, #E80C7A, #F5007A);
+  background-image: linear-gradient(to bottom, #E80C7A, #F5007A);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#each-show:hover .buy-now{
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  text-decoration: none;
+  color:#4d4d4d;
+}
+
 
 
 
@@ -1301,7 +1436,7 @@ div.header-contact{
 @media ( min-width:500px ) {
 
 div.header-contact{
-	background-image: url(images/contact-header1.jpg);
+	background-image: url(images/mail-header.jpg);
 	background-position:40% 25%;
 	background-size: cover;
 	height:60vh;
@@ -1440,33 +1575,24 @@ p{
 }
 
 
-#each-show{
-	/*list-style: none;
-	color:#555;
-	display: flex;
-	cursor: pointer;
-	border-bottom: 1px solid #ccc;
-	transition: all 1.5s ease;*/
-    /*color:white;*/
-    background-size: 200% 100%;
-    background-image: linear-gradient(to right, #fff 50%, #f3430c 50%);
-    transition: all 1.2s;
-    padding:0 0 0 20px;
-    cursor: pointer;
-	border-bottom: 1px solid #ccc;
+/*-------------------------------------Reviews--------------------------------------------------------------------------*/
+.main-review-container{
+	color:#333;
+	letter-spacing: 1.5px;
 }
-
-#each-show:hover{
-	background-position: -100% 0;
-	/*background-color: #f3430c;*/
-	transform: scale(1.02);
-	border-radius: 0px 0px 45px 0px;
+.each-reviews-row{
+	letter-spacing: 1.5px;
 }
-
-
-
-
-
+.awards{
+	font-size: 15px;
+}
+.review-author{
+	font-size:15px;
+	color:#000;
+}
+h3{
+	font-size: 24px;
+}
 
 
 

@@ -14,8 +14,18 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area container">
-		<main id="main" class="site-main" role="main">
+	<!-- <div id="primary" class="content-area container">
+		<main id="main" class="site-main" role="main"> -->
+		<div class="row header-blogs ">
+			<div class="overlay-box">
+				<h1 style="margin:0px; color:white; text-transform: uppercase;">My Blogs</h1>
+			</div>
+		</div>
+		<h1 class="text-center">My Blogs</h1>
+		<div class="row top-bottom-space side-padding">
+			
+		</div>
+
 
 		<?php
 		if ( have_posts() ) :
@@ -48,8 +58,8 @@ get_header(); ?>
 
 		endif; ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+		<!-- </main> --><!-- #main -->
+	<!-- </div> --><!-- #primary -->
 
 <?php
 get_sidebar();

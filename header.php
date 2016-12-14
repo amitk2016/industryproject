@@ -17,8 +17,8 @@
 <link href="https://fonts.googleapis.com/css?family=Lato|Lobster+Two|Open+Sans|Playfair+Display" rel="stylesheet">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <script src="https://use.fontawesome.com/3ea3387309.js"></script>
-<link rel="stylesheet" href="<?= get_template_directory_uri() ?>/slicknav.css" />
-<script src="<?= get_template_directory_uri() ?>/js/jquery.slicknav.min.js"></script>
+<!-- <link rel="stylesheet" href="<?= get_template_directory_uri() ?>/slicknav.css" /> -->
+
 
 
 <?php wp_head(); ?>
@@ -47,10 +47,7 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'sparrow' ); ?></button>
-			<!-- <div class="handle">
-				Menu
-				<i class="fa fa-bars fa-1x" aria-hidden="true"></i>
-			</div> -->
+			
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 
 		</nav><!-- #site-navigation -->

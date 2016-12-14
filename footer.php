@@ -66,6 +66,7 @@
 	<!-- Add fancyBox -->
 	<link rel="stylesheet" href="<?= get_template_directory_uri() ?>/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<script type="text/javascript" src="<?= get_template_directory_uri() ?>/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<!-- <script src="<?= get_template_directory_uri() ?>/js/jquery.slicknav.min.js"></script> -->
 	<script src="<?= get_template_directory_uri() ?>/js/functions.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
