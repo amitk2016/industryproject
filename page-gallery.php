@@ -22,10 +22,7 @@ get_header(); ?>
 				<h1 style="margin:0px; color:white; text-transform: uppercase;">Gallery</h1>
 			</div>
 		</div>
-		<h1 class="text-center top-bottom-space side-padding">
-			Gallery
-		</h1>
-				
+			
 
 		<!-- <div class="row text-center top-bottom-space side-padding">
 			<div class="col-md-3 "><img src="<?php echo get_template_directory_uri(); ?>/images/Trump.jpg" class="img-responsive"></div>

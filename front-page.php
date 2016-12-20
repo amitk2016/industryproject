@@ -22,7 +22,7 @@ get_header(); ?>
 			<div class="row bg-image">
 				<div class="bg-color">
 				
-						<img src="<?php echo get_template_directory_uri(); ?>/images/alex-headshot.png" class="img-responsive" alt="alexander headshot pic" width="200" height="200">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/alex-headshot.png" class="img-responsive headshot-pic" alt="alexander headshot pic" width="200" height="200">
 						
 						<h1><strong>Alexander Sparrow</strong></h1>
 						<h5><strong>Australasia's Number 1 Donald Trump Impersonator</strong></h5>

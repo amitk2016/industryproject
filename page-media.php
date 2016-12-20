@@ -45,7 +45,7 @@ get_header(); ?>
 
 				<div class="row text-center media-page top-bottom-padding side-padding">
 					<div class="col-md-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/Breakfast.jpg" alt="TVNZ" class="img-responsive">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="TVNZ" class="img-responsive">
 						<h5>TVNZ Breakfast</h5>
 					</div>
 					<div class="col-md-3">
