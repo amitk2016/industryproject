@@ -1793,9 +1793,15 @@ a:hover {
 }
 
 
+/*----------------------------Github---------------------------------------------------------------------*/
 
-
-
+div.github-header{
+	background-image: url(images/github.png);
+	background-position:center;
+	background-size:contain;
+	background-repeat: no-repeat;
+	height:60vh;
+}
 
 
 
