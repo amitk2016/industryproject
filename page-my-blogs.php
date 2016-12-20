@@ -16,18 +16,15 @@ get_header(); ?>
 
 	<!-- <div id="primary" class="content-area container">
 		<main id="main" class="site-main" role="main"> -->
-		<div class="row header-blogs ">
-			<div class="overlay-box">
-				<h1 style="margin:0px; color:white; text-transform: uppercase;">My Blogs</h1>
-			</div>
-		</div>
+	
+		
 		<h1 class="text-center">My Blogs</h1>
 		<div class="row top-bottom-space side-padding">
 			
 		</div>
-
-
-		<?php
+		
+		<div class="container">
+			<?php
 		if ( have_posts() ) :
 
 			if ( is_home() && ! is_front_page() ) : ?>
@@ -57,6 +54,8 @@ get_header(); ?>
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif; ?>
+
+		</div>
 
 		<!-- </main> --><!-- #main -->
 	<!-- </div> --><!-- #primary -->

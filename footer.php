@@ -19,7 +19,7 @@
 			<h1 class="text-center">Contacts</h1>
 			<ul class="text-center">
 				<li>
-					<a href="#">
+					<a href="https://www.facebook.com/alexandersparrowcomedian/" target="_blank">
 						<span class="fa-stack fa-lg">
 						  <i class="fa fa-circle fa-stack-2x"></i>
 						  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -27,7 +27,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="https://twitter.com/DonaldTrumpNZ" target="_blank">
 						<span class="fa-stack fa-lg">
 						  <i class="fa fa-circle fa-stack-2x"></i>
 						  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -35,18 +35,18 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="https://www.youtube.com/channel/UC1vyBI8P_28ceXg5gCzqY1g" target="_blank">
 						<span class="fa-stack fa-lg">
 						  <i class="fa fa-circle fa-stack-2x"></i>
-						  <i class="fa fa-pinterest-p fa-stack-1x fa-inverse"></i>
+						  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
 						</span>
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="https://www.instagram.com/alexandersparrowproductions/?hl=en" target="_blank">
 						<span class="fa-stack fa-lg">
 						  <i class="fa fa-circle fa-stack-2x"></i>
-						  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+						  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
 						</span>
 					</a>
 				</li>

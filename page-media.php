@@ -16,7 +16,7 @@ get_header(); ?>
 
 <!-- 	<div id="primary" class="content-area container">
 		<main id="main" class="site-main" role="main"> -->
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row header-media">
 					<div class="overlay-box">
 						<h1 style="margin:0px; color:white; text-transform: uppercase;">Media</h1>
@@ -27,12 +27,12 @@ get_header(); ?>
 				<div class="row top-bottom-padding side-padding">
 					
 					<div class="col-md-6 text-center">
-						<iframe width="500" height="300" src="https://www.youtube.com/embed/7xX_KaStFT8">
+						<iframe width="100%" height="350" src="https://www.youtube.com/embed/7xX_KaStFT8">
 						</iframe>
 						<h4><strong>Interview @TVNZ</strong></h4>
 					</div>
 					<div class="col-md-6 text-center">
-						<iframe width="500" height="300" src="https://www.youtube.com/embed/f0UB06v7yLY">
+						<iframe width="100%" height="350" src="https://www.youtube.com/embed/f0UB06v7yLY">
 						</iframe>
 						<h4><strong>Interview @TV3 STORY</strong></h4>
 					</div>
@@ -43,40 +43,40 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="row text-center top-bottom-padding side-padding">
+				<div class="row text-center media-page top-bottom-padding side-padding">
 					<div class="col-md-3">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/Breakfast.jpg" alt="TVNZ" class="img-responsive">
-						<h5>Caption here</h5>
+						<h5>TVNZ Breakfast</h5>
 					</div>
 					<div class="col-md-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/Breakfast.jpg" alt="TVNZ" class="img-responsive">
-						<h5>Caption here</h5>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/3_original.jpg" alt="TVNZ" class="img-responsive">
+						<h5>Short+Sweet Festival</h5>
 					</div>
 					<div class="col-md-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/Breakfast.jpg" alt="TVNZ" class="img-responsive">
-						<h5>Caption here</h5>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/4-original.jpg" alt="TVNZ" class="img-responsive">
+						<h5>Wellington Comedy Awards</h5>
 					</div>
 					<div class="col-md-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/Breakfast.jpg" alt="TVNZ" class="img-responsive">
-						<h5>Caption here</h5>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/3.jpg" alt="TVNZ" class="img-responsive">
+						<h5>Herald Focus</h5>
 					</div>
 				</div>
-				<div class="row text-center top-bottom-padding side-padding">
+				<div class="row text-center media-page top-bottom-padding side-padding">
 					<div class="col-md-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/Breakfast.jpg" alt="TVNZ" class="img-responsive">
-						<h5>Caption here</h5>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/nzhearld-crop.jpg" alt="TVNZ" class="img-responsive">
+						<h5>Story-1</h5>
 					</div>
 					<div class="col-md-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/Breakfast.jpg" alt="TVNZ" class="img-responsive">
-						<h5>Caption here</h5>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/trump-crop-media-1.jpg" alt="TVNZ" class="img-responsive">
+						<h5>Trump-1</h5>
 					</div>
 					<div class="col-md-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/Breakfast.jpg" alt="TVNZ" class="img-responsive">
-						<h5>Caption here</h5>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/hearld2-crop.jpg" alt="TVNZ" class="img-responsive">
+						<h5>Story-2</h5>
 					</div>
 					<div class="col-md-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/Breakfast.jpg" alt="TVNZ" class="img-responsive">
-						<h5>Caption here</h5>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/trump-2-crop.jpg" alt="TVNZ" class="img-responsive">
+						<h5>Trump-2</h5>
 					</div>
 				</div>
 

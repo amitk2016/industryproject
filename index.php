@@ -14,51 +14,32 @@
 
 get_header(); ?>
 
-	<!-- <div id="primary" class="content-area container">
-		<main id="main" class="site-main" role="main"> -->
-
-		<div class="row header-blogs ">
+	<div class="container-fluid">
+ 		<div class="row header-blogs ">
 			<div class="overlay-box">
-				<h1 style="margin:0px; color:white; text-transform: uppercase;">Reviews</h1>
+				<h1 style="margin:0px; color:white; text-transform: uppercase;">My Blogs</h1>
 			</div>
 		</div>
-		<h1 class="text-center">My Blogs</h1>
-		<div class="row top-bottom-space side-padding">
-			
-		</div>
-		<?php
-		if ( have_posts() ) :
+ 	
 
-			if ( is_home() && ! is_front_page() ) : ?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-
-			<?php
-			endif;
-
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
-
-				/*
-				 * Include the Post-Format-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_format() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif; ?>
-
-		<!-- </main> --><!-- #main -->
-	<!-- </div> --><!-- #primary -->
+		<div class="row" id="primary">
+		        <main id="content" class="col-sm-12" role="main">
+		                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); get_template_part( 'template-parts/content', get_post_format() ); endwhile; the_posts_navigation(); else : get_template_part( 'template-parts/content', 'none' ); endif; ?>
+		            <!-- ./#article-product -->
+		        </main><!-- ./#content -->
+		 
+		 
+				<aside class="col-sm-4">
+		            <?php get_sidebar(); ?>
+		        </aside>
+		 
+		 
+		<!-- ./col-sm-4 -->
+		    </div>
+		 
+		 
+		<!-- ./#primary -->
+	</div>
 
 <?php
 get_sidebar();
